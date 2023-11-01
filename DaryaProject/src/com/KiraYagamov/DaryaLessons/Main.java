@@ -3,9 +3,10 @@ package com.KiraYagamov.DaryaLessons;
 public class Main {
 
     public static void main(String[] args){
-        TestObject obj = new TestObject();
-        obj.setSize(10);
-        obj.getSize();
+        Bird bird = new Crow();
+        bird.getType();
+        bird.setType("Гусь");
+        bird.getType();
     }
 //    public static void main(String[] args) {
 //        Lesson1HW lesson = new Lesson1HW();
