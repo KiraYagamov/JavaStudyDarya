@@ -1,9 +1,12 @@
 package com.KiraYagamov.DaryaLessons;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
-        Figures.Romb();
+        Shape shape = new Square(10, 10);
+        shape.hello();
     }
 
 
