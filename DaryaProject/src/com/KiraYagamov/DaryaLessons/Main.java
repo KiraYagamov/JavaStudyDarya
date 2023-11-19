@@ -1,12 +1,18 @@
 package com.KiraYagamov.DaryaLessons;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
 
     public static void main(String[] args) {
-        Shape shape = new Square(10, 10);
-        shape.hello();
+        MyLinkedList<String> list = new MyLinkedList<>();
+        list.Add("Hello world");
+        list.Add("Hello world1");
+        list.Add("Hello world2");
+        list.RemoveAt(1);
+        list.Remove("Hello world");
+        System.out.println(list.Get(0));
     }
 
 
