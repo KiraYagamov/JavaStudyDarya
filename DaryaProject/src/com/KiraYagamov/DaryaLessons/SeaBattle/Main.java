@@ -1,12 +1,4 @@
-package com.KiraYagamov.DaryaLessons;
-
-import com.KiraYagamov.DaryaLessons.SeaBattle.Cell;
-import com.KiraYagamov.DaryaLessons.SeaBattle.Ship;
-
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+package com.KiraYagamov.DaryaLessons.SeaBattle;
 
 public class Main {
     Cell[][] grid;
